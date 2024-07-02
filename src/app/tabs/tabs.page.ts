@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import {GetapiService} from '../services/getapi.service'
 @Component({
   selector: 'app-tabs',
   templateUrl: 'tabs.page.html',

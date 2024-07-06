@@ -9,6 +9,7 @@ import { ToastController } from '@ionic/angular';
 export class GetapiService {
 
   url = `http://192.168.0.229:1880/`
+  // url = `http://127.0.0.1:1880/` 
   isLoginError: boolean = false;
   constructor(private http: HttpClient,private route: Router,private toastController: ToastController) { }
 

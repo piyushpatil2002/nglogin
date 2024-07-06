@@ -7,14 +7,14 @@ import { Router } from '@angular/router';
 })
 export class Tab1Page {
   pages: string[] = ['Home','About','Contact'];
-  aboutUsOpen = false;
+  dashBoard = false;
   constructor(private route: Router) { }
 
   next(){
     this.route.navigate(['/login'])
   }
-  toggleAboutUs() {
-    this.aboutUsOpen = !this.aboutUsOpen;
+  toggleDashboard() {
+    this.dashBoard = !this.dashBoard;
   }
 
 }
